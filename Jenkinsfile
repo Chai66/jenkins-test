@@ -30,7 +30,7 @@ pipeline {
         failure{
             echo 'this runs when pipeline is failed, used generally to sned alerts'
         }
-        Success{
+        success{
             echo 'I will say hello when pipeline is success'
         }
     }
